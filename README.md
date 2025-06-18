@@ -23,7 +23,7 @@ conda create --name StableVITON python=3.10 -y
 conda activate StableVITON
 
 # install packages
-pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
+pip install torch==2.1.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
 pip install pytorch-lightning==1.5.0
 pip install einops
 pip install opencv-python==4.7.0.72
